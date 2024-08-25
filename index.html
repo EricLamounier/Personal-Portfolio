@@ -199,7 +199,7 @@
 
         <div id="contact">
             <h2 class="title">CONTACT <span> ME </span></h2>
-            <form method="POST" action="php/send_mail.php">
+            <div class="form">
                 <div class="inputBox">
                     <label class="input" for="name">Name</label>
                     <input type="text" id="name" name="name" required>
@@ -215,8 +215,8 @@
                     <textarea id="message" name="mensagem" required></textarea>
                     <div id="errorMessage"></div>
                 </div>
-                <button disabled type="submit" id="submit" name="submit" onclick="check()">CONTACT ME</button>
-            </form>
+                <button  id="submit" name="submit" onclick="send()">CONTACT ME</button>
+            </div>
         </div>
     </main>
     <footer id="rodape"><p>Coded by <a href="https://github.com/EricLamounier" target="_blank">Eric Lamounier</a></p></footer>
