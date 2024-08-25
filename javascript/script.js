@@ -60,3 +60,12 @@ const send = () => {
         console.error('Erro ao enviar e-mail:', err);
     });
 };
+
+const sleep = (delay) => {
+    return new Promise(resolve => setTimeout(resolve, delay));
+}
+
+const frases = ['Precisa de um site?', 'Precisa de um Wep App?', 'Quer conversar sobre uma ideia?', 'Precisa de uma solução para seu negócio?']
+const escreve = async () => {
+
+}
