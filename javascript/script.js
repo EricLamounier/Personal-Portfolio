@@ -41,7 +41,7 @@ function checkInput() {
 }
 
 const send = () => {
-    fetch('https://emailsenderportifolio.vercel.app', {
+    fetch('https://emailsenderportifolio.vercel.app/sendEmail', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
