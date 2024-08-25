@@ -65,7 +65,26 @@ const sleep = (delay) => {
     return new Promise(resolve => setTimeout(resolve, delay));
 }
 
-const frases = ['Precisa de um site?', 'Precisa de um Wep App?', 'Quer conversar sobre uma ideia?', 'Precisa de uma solução para seu negócio?']
-const escreve = async () => {
+const p = document.getElementById('text');
+const frases = ['Precisa de um site?', 'Quer conversar sobre uma ideia?', 'Precisa de um Wep App?', 'Precisa de uma solução para seu negócio?']
+const escreve = async (delayTexto, delayLetras) => {
 
+    while(true){
+        // escreve
+        for(texto of frases){
+            for(c of texto){ // escreve
+                p.innerHTML += c;
+                await sleep(delayLetras);
+            }
+
+            await sleep(delayTexto);
+
+            for(c of texto){ // apaga
+                p.innerHTML = p.innerHTML.slice(0, p.innerHTML.length-1);
+                await sleep(delayLetras-50);
+            }
+        }
+    }
 }
+
+escreve(1000, 100)

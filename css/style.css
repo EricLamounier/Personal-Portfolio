@@ -67,6 +67,7 @@ header #me {
     width: 60%;
     z-index: 1;
     padding: 100px;
+    padding-right: 0;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -331,6 +332,18 @@ main#corpo {
 #contact > h2 > span {
     padding-bottom: 5px;
     border-bottom: 3px solid #64644b;
+}
+
+@keyframes pulsa {
+    50%{
+        background-color: transparent;
+    }
+}
+
+#mark {
+    width: 1px;
+    background-color: white;
+    animation: pulsa 0.7s step-start infinite;
 }
 
 #contact .form{
