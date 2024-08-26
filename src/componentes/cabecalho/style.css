@@ -1,0 +1,173 @@
+header {
+    background-image: url('../../imagens/bg.jpg');
+    width: 100%;
+    height: auto;
+    min-height: 70%;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    background-color: red;
+    margin-bottom: 100px;
+}
+
+header a:has(svg) {
+    text-decoration: none;
+    color: white;
+    width: 90%;
+}
+
+header .headerFade {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.788);
+    z-index: -1;
+}
+
+header .headerContent {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    position: relative;
+}
+
+header #me {
+    width: 60%;
+    z-index: 1;
+    padding: 100px;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+header #me > div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+header #me > div:nth-child(2) {
+    flex-direction: row;
+    gap: 15px;
+    width: 100%;
+}
+
+header #me > div:nth-child(2) div {
+    display: grid;
+    place-items: center;
+    width: 30px;
+    min-width: 20px;
+}
+
+header #me h2 {
+    font-size: 50px;
+    font-weight: 100;
+}
+
+header #me h3 {
+    font-size: 30px;
+    font-weight: 1;
+}
+
+header #me button {
+    border: 2px solid #fff;
+    border-radius: 3px;
+    padding: 12px;
+    background: 0;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.1s;
+    margin-right: 10px;
+}
+
+header #me button:hover {
+    background-color: #fff;
+    color: black;
+    box-shadow: 0px 0px 5px #fff;
+    transform: scale(1.05);
+}
+
+header #me svg {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+header #me svg:hover {
+    transform: scale(1.05);
+    filter:drop-shadow(0px 0px 3px white);
+    fill: white;
+}
+
+#perfilImage {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#perfilImage .img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: blue;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+#languages {
+    position: absolute;
+    bottom: -70px;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+#languages > div {
+    width: 90%;
+    max-width: 700px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    background-color: #212529;
+    padding: 20px;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 7px;
+}
+
+#languages > div div {
+    width: 60px;
+    min-width: 25px;
+}
+
+#languages svg {
+    fill: rgba(255, 255, 255, 0.438);
+    cursor: pointer ;
+    transition: 0.1s;
+}
+
+#languages svg:hover {
+    transform: scale(1.05);
+    fill: rgba(255, 255, 255, 0.863);
+    filter: drop-shadow(0px 0px 2px #fff)
+}
+
+
+@keyframes pulsa {
+    50%{
+        background-color: transparent;
+    }
+}
+
+#mark-disbaled {
+    width: 1px;
+    background-color: white;
+    animation: pulsa 0.7s step-start infinite;
+}

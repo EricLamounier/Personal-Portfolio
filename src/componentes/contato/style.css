@@ -1,0 +1,93 @@
+#contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #1f1f1a;
+}
+
+#contact > h2 {
+    font-weight: 100;
+    font-size: 25px;
+    position: relative;
+}
+
+#contact > h2 > span {
+    padding-bottom: 5px;
+    border-bottom: 3px solid #64644b;
+}
+
+#contact .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 30px;
+    width: 90%;
+    max-width: 800px;
+    border: 2px solid #64644b;
+    border-radius: 10px;
+}
+
+.inputBox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 90%;
+}
+
+.inputBox input,
+.inputBox textarea {
+    background: #141411;
+    border: 0;
+    border-bottom: 2px solid #64644b;
+    color: white;
+    font-size: 16px;
+    padding-left: 5px;
+    outline: 0;
+}
+
+.inputBox input:focus,
+.inputBox textarea:focus {
+    outline: 2px solid rgb(129, 129, 129);
+    border-radius: 3px;
+}
+
+.inputBox input {
+    height: 40px;
+}
+
+.inputBox textarea {
+    height: 200px;
+    padding: 5px;
+    resize: none;
+}
+
+#contact #submit {
+    padding: 15px 25px;
+    background-color: #64644b;
+    border: 0;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.774);
+    border-radius: 5px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#contact #submit:hover {
+    background-color: white;
+    color: #64644b;
+}
+
+#contact button:disabled {
+    opacity: 0.3;
+}
+
+#contact .messageErro {
+    font-size: 11px;
+    font-weight: bold;
+    color: rgb(187, 43, 43);
+}
