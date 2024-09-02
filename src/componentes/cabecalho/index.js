@@ -33,7 +33,7 @@ export default function Header(){
     }
 
     useEffect(()=>{
-        //escreve(1000, 100)
+        escreve(1000, 100)
     }, [])
 
     return (
