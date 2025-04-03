@@ -6,7 +6,6 @@ header {
     background-size: cover;
     position: relative;
     z-index: 1;
-    background-color: red;
     margin-bottom: 100px;
 }
 
@@ -115,7 +114,6 @@ header #me svg:hover {
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    background-color: blue;
     background-size: cover;
     opacity: 0.9;
 }
