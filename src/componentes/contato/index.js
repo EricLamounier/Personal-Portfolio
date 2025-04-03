@@ -45,7 +45,7 @@ export default function Contato(){
         if(!check())
             return
 
-        fetch('https://emailsenderportifolio.vercel.app/sendEmail', {
+        fetch('https://myemailsenderportifolio.vercel.app/sendEmail', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
