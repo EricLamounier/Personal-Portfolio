@@ -27,12 +27,12 @@ function App() {
           projetoImagemAlt = 'Calculadora'
         />
         <CardProjeto
-          projetoTitulo = 'Teste Automatizado NEO NFCe'
-          projetoDescricao = 'Teste Automatizado para validação do sistema NEO NFCe da Realtec Solução em Gestão'
-          projetoDemoLink = 'https://raw.githubusercontent.com/EricLamounier/TesteAutomatizadoNEONFCe/main/assets/preview.png'
-          projetoLink = 'https://github.com/EricLamounier/TesteAutomatizadoNEONFCe'
-          projetoImagemLink='https://raw.githubusercontent.com/EricLamounier/TesteAutomatizadoNEONFCe/main/assets/preview.png'
-          projetoImagemAlt = 'Teste Automatizado NEO NFCe'
+          projetoTitulo = 'Teste Automatizado NEO'
+          projetoDescricao = 'Teste Automatizado para validação do sistema NEO da Realtec Solução em Gestão'
+          projetoDemoLink = 'https://raw.githubusercontent.com/EricLamounier/AutomatizadoNeo/main/git/automatizadoneo.png'
+          projetoLink = 'https://github.com/EricLamounier/AutomatizadoNeo'
+          projetoImagemLink='https://raw.githubusercontent.com/EricLamounier/AutomatizadoNeo/main/git/automatizadoneo.png'
+          projetoImagemAlt = 'Teste Automatizado NEO'
         />
         <CardProjeto
           projetoTitulo = 'Conversor de Números'
