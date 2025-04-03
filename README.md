@@ -15,7 +15,7 @@ A hospedagem escolhida, tanto para o front quanto para o back, foi a Vercel.
 
 
 ## 🌐 Acesse o Portfólio
-[Clique aqui para acessar a página](https://eric-personal-portfolio.vercel.app/)
+[Clique aqui para acessar a página](https://ericlamounier.vercel.app/)
 
 
 ## 📩 Contato
