@@ -40,7 +40,7 @@ export default function Header(){
         <header id="cabecalho">
             <div className="headerFade"></div>
             <div className="headerContent">
-                <div id="me">
+                <div id="me" className='test'>
                     <div>
                         <h2>Eric Lamounier</h2>
                         <h3 style={{display: 'flex'}}><p id="text">{p}</p><span id="mark">&nbsp;</span></h3>

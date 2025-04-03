@@ -29,6 +29,7 @@ header .headerContent {
     z-index: 1;
     display: flex;
     position: relative;
+    padding-bottom: 30px;
 }
 
 header #me {
